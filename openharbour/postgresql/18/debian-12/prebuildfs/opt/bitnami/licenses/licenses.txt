@@ -1,0 +1,2 @@
+OpenHarbour containers ship with software bundles. You can find the licenses under:
+/opt/openharbour/[name-of-bundle]/licenses/[bundle-version].txt

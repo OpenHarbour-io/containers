@@ -1,0 +1,16 @@
+# Copyright Broadcom, Inc. All Rights Reserved.
+# SPDX-License-Identifier: APACHE-2.0
+
+services:
+  postgresql:
+    image: ghcr.io/OpenHarbour/postgresql:18
+    ports:
+      - '5432:5432'
+    volumes:
+      - 'postgresql_data:/openharbour/postgresql'
+    environment:
+      - 'ALLOW_EMPTY_PASSWORD=yes'
+
+volumes:
+  postgresql_data:
+    driver: local

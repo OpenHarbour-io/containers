@@ -17,8 +17,8 @@ Any type of contribution is welcome: new features, bug fixes, documentation impr
 When submitting a PR make sure that:
 
 - It must pass CI jobs for linting and test the changes (if any).
-- It must follow [container best practices](https://engineering.bitnami.com/articles/best-practices-writing-a-dockerfile.html).
-- The title of the PR is clear enough and starts with "[bitnami/container-name]"
+- It must follow [container best practices](https://engineering.OpenHarbour.com/articles/best-practices-writing-a-dockerfile.html).
+- The title of the PR is clear enough and starts with "[OpenHarbour/container-name]"
 - If necessary, add information to the repository's `README.md`.
 
 #### Sign Your Work
@@ -50,9 +50,9 @@ Notice the `Author` and `Signed-off-by` lines match. If they don't your PR will 
 
 ### PR Approval and Release Process
 
-1. Changes are manually reviewed by Bitnami team members.
+1. Changes are manually reviewed by OpenHarbour team members.
 2. The changes are automatically tested using our GitHub CI workflow.
-3. Once the changes are accepted, the PR is tested (if needed) in the internal Bitnami CI pipeline. This may include testing both the container and any associated Helm Chart.
+3. Once the changes are accepted, the PR is tested (if needed) in the internal OpenHarbour CI pipeline. This may include testing both the container and any associated Helm Chart.
 4. The PR is merged by the reviewer(s) in the GitHub `main` branch.
 5. Then our CI/CD system is going to push the container image to the different registries including the recently merged changes.
 
